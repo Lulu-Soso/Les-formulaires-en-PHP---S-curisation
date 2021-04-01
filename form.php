@@ -11,33 +11,26 @@
 
 
 <h2>Challenge: Sécuriser la prise de contact</h2>
-<p>
-    <span class="error">* required field</span>
-</p>
 
 <form  action="thanks.php"  method="post">
     <p>
       <label  for="lastname">Nom :</label>
       <input  type="text"  id="lastname"  name="lastname" required>
-      <span class="error">* </span>
     </p>
 
     <p>
       <label  for="firstname">Prenom :</label>
       <input  type="text"  id="firstname"  name="firstname" required>
-      <span class="error">* </span>
     </p>
 
     <p>
       <label  for="email">email :</label>
       <input  type="email"  id="email"  name="email" required>
-      <span class="error">* </span>
     </p>
 
     <p>
       <label  for="phone">Telephone :</label>
       <input  type="tel"  id="phone"  name="phone">
-      <span class="error">* </span>
     </p>
 
     <p>
@@ -50,13 +43,11 @@
             <option>voyages
             <option>visites
         </select>
-        <span class="error">* </span>
     </p>
 
     <p>
     <label  for="message">Message :</label>
       <textarea  id="message"  name="message"></textarea required>
-      <span class="error">* </span>
     </p>
 
     <p>
