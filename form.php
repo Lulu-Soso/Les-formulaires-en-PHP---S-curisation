@@ -30,7 +30,7 @@
 
     <p>
       <label  for="phone">Telephone :</label>
-      <input  type="tel"  id="phone"  name="phone">
+      <input  type="tel"  id="phone"  name="phone" required>
     </p>
 
     <p>
@@ -47,7 +47,7 @@
 
     <p>
     <label  for="message">Message :</label>
-      <textarea  id="message"  name="message"></textarea required>
+      <textarea  id="message"  name="message" required></textarea>
     </p>
 
     <p>
